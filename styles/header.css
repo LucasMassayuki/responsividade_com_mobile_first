@@ -1,0 +1,24 @@
+.cabeçalho_menu-humburguer {
+    width: 40px;
+    height: 40px;
+    background-image: url("../img/Menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between; /*colocou cada "container" no canto do cabeçalho"*/ 
+    align-items: center; /*deixa os itens no centro da linha*/
+}
+
+.container { /* os container estão alinhados no centro */
+    display: flex;
+    align-items: center;
+}
+
+.container_imagem {
+    padding: 1em;
+}
