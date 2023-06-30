@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-between; /*colocou cada "container" no canto do cabeçalho"*/ 
     align-items: center; /*deixa os itens no centro da linha*/
+    position: relative;
 }
 
 .container { /* os container estão alinhados no centro */
@@ -21,4 +22,14 @@
 
 .container_imagem {
     padding: 1em;
+}
+
+.lista_menu {
+    display: none;
+    position: absolute;
+    top: 100%; /*tirou 100% do cabeçalho e ficou pra baixo */
+}
+
+.container_botao:checked~.lista_menu { /*quando clicar aparece a lista*/
+    display: block;
 }
