@@ -71,3 +71,20 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+.estrelinhas {
+    margin-bottom: 0.5em;
+}
+
+.nome_autora {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0.5em 0;
+}
+
+.texto_autora {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
