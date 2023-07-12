@@ -2,6 +2,9 @@
 @import url("styles/banner.css"); /*importa o banner.css*/
 @import url("styles/carrossel.css"); /*importa o carrossel.css*/
 @import url("styles/topicos.css"); /*importa o topicos.css*/
+@import url("styles/contato.css"); /*importa o contato.css*/
+@import url("styles/rodapé.css"); /*importa o rodapé.css*/
+
 
 :root {
     --cor-de-fundo: #EBECEE;
