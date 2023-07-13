@@ -102,4 +102,13 @@
     .cabeçalho_menu-humburguer {
         display: none;
     }
+
+    .opções_botão:checked~.lista_menu {
+        display: block;
+        width: auto;
+    }
+
+    .opções_botão {
+        display: none;
+    }
 }
