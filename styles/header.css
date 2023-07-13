@@ -56,3 +56,7 @@
 .container_botao { /*tirar o checklist */
     display: none;
 }
+
+@media screen and (min-width: 1024px) {
+    
+}
